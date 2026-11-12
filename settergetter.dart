@@ -5,5 +5,6 @@ void main() {
   pakaian1.inputwarna = 'hijau';
   pakaian1.ubahatribut('abu', 'kemeja', 1000, 120000);
   print(pakaian1.tampilwarna);
+  pakaian1.tampilatribut();
 
 }

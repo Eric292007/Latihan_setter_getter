@@ -47,4 +47,11 @@ class Pakaian{
     _harga = harga;
   }
 
+  tampilatribut(){
+    print(_warna);
+    print(_jenis);
+    print(_berat);
+    print(_harga);
+  }
+
 }
