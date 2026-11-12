@@ -39,4 +39,12 @@ class Pakaian{
   set inputwarna(warna){
     _warna = warna;
   }
+
+  ubahatribut(warna, jenis, berat, harga){
+    _warna = warna;
+    _jenis = jenis;
+    _berat = berat;
+    _harga = harga;
+  }
+
 }
